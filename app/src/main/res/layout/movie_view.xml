@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e2e2e2"
+    >
+    <ImageView
+        android:id="@+id/channelmovieImage"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="@drawable/a"/>
+
+    <TextView
+        android:id="@+id/channelmovieName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/channelmovieImage"
+        android:gravity="center"
+        android:text="频道名"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/channelmovieName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toRightOf="@+id/channelmovieImage"
+        android:text="高清"
+        android:textSize="15sp" />
+    
+</RelativeLayout>
